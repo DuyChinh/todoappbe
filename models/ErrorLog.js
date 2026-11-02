@@ -34,3 +34,4 @@ const ErrorLogSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('ErrorLog', ErrorLogSchema);
+

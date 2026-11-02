@@ -9,3 +9,4 @@ router.put('/:id', errorLogController.updateErrorLog);
 router.delete('/:id', errorLogController.deleteErrorLog);
 
 module.exports = router;
+

@@ -8,3 +8,4 @@ router.put('/:id', mockExamController.updateMockExam);
 router.delete('/:id', mockExamController.deleteMockExam);
 
 module.exports = router;
+
