@@ -102,7 +102,7 @@ exports.updateTask = async (req, res) => {
     const { id } = req.params;
     const updateData = req.body;
     
-    const task = await Task.findByIdAndUpdate(id, updateData, { new: true });
+    const task = await Task.findByIdAndUpdate(id, updateData, { returnDocument: 'after' });
     if (!task) {
       return res.status(404).json({ message: 'Không tìm thấy nhiệm vụ' });
     }
