@@ -34,6 +34,14 @@ const getSeedTemplates = () => {
     },
     {
       time: "20:00",
+      content: "Chuẩn bị & Giảm Dopamine: Thả lỏng, uống nước, chuẩn bị tài liệu trước giờ học 🧘",
+      pomoSession: "Chuẩn bị",
+      durationMinutes: 30,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "20:30",
       content: "Pomo 3: Ôn 5–7 mẫu Ngữ pháp N2 + làm bài tập Mondai 7, 8 (Ngữ pháp câu & dấu sao)",
       pomoSession: "Pomo 3",
       durationMinutes: 25,
@@ -41,7 +49,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "20:25",
+      time: "20:55",
       content: "Nghỉ: Nghe 1 bài nhạc không lời hoặc J-Pop thư giãn 🎧",
       pomoSession: "Nghỉ ngắn",
       durationMinutes: 5,
@@ -49,7 +57,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "20:30",
+      time: "21:00",
       content: "Pomo 4: Luyện Đọc hiểu (Dokkai): 3 bài đoạn ngắn (Tankibun) + 1 bài tìm kiếm thông tin",
       pomoSession: "Pomo 4",
       durationMinutes: 25,
@@ -57,7 +65,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "20:55",
+      time: "21:25",
       content: "Nghỉ: Đọc 2–3 trang sách nhẹ nhàng, thư giãn mắt 🌱",
       pomoSession: "Nghỉ ngắn",
       durationMinutes: 5,
@@ -65,7 +73,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "21:00",
+      time: "21:30",
       content: "Pomo 5: Luyện Đọc hiểu: 1 bài đoạn trung (Chuubun) hoặc đoạn dài (Choubun) + phân tích kỹ câu sai",
       pomoSession: "Pomo 5",
       durationMinutes: 25,
@@ -73,7 +81,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "21:25",
+      time: "21:55",
       content: "Nghỉ: Nghe 1 bài nhạc, đứng dậy vươn vai thư giãn gân cốt 🧘",
       pomoSession: "Nghỉ ngắn",
       durationMinutes: 5,
@@ -81,7 +89,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "21:30",
+      time: "22:00",
       content: "Pomo 6: Luyện Nghe hiểu (Choukai): Tập trung Mondai 1, 2 (nghe nắm ý chính và chi tiết)",
       pomoSession: "Pomo 6",
       durationMinutes: 25,
@@ -89,7 +97,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "21:55",
+      time: "22:25",
       content: "Nghỉ giải lao dài (15 phút): Đọc sách, uống nước, cho não bộ nghỉ sâu sau 4 phiên tối ☕",
       pomoSession: "Nghỉ dài 15p",
       durationMinutes: 15,
@@ -97,7 +105,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "22:10",
+      time: "22:40",
       content: "Pomo 7: Luyện Nghe hiểu: Mondai 3, 4 (phản xạ nhanh) + đọc script và nhại lại (shadowing)",
       pomoSession: "Pomo 7",
       durationMinutes: 25,
@@ -105,7 +113,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "22:35",
+      time: "23:05",
       content: "Nghỉ: Nghe 1 bài nhạc Acoustic nhẹ nhàng 🎶",
       pomoSession: "Nghỉ ngắn",
       durationMinutes: 5,
@@ -113,7 +121,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "22:40",
+      time: "23:10",
       content: "Pomo 8: Tổng hợp toàn bộ từ mới, cấu trúc sai trong buổi tối vào sổ/Anki để sáng mai ôn ở Pomo 1",
       pomoSession: "Pomo 8",
       durationMinutes: 25,
@@ -197,14 +205,14 @@ const getSeedTemplates = () => {
     },
     {
       time: "18:30",
-      content: "Nghỉ ăn tối, tắm rửa, thư giãn hoàn toàn (90 phút) 🍱",
+      content: "Nghỉ ăn tối, tắm rửa, thư giãn & reset Dopamine (120 phút) 🍱",
       pomoSession: "Nghỉ tối",
-      durationMinutes: 90,
+      durationMinutes: 120,
       category: "break",
       isBreak: true
     },
     {
-      time: "20:00",
+      time: "20:30",
       content: "Pomo 6: Chữa Nghe hiểu (Mondai 3, 4, 5) cùng script",
       pomoSession: "Pomo 6",
       durationMinutes: 25,
@@ -212,7 +220,15 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "20:30",
+      time: "20:55",
+      content: "Nghỉ: Nghe 1 bài nhạc, thư giãn 5 phút 🎵",
+      pomoSession: "Nghỉ ngắn",
+      durationMinutes: 5,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "21:00",
       content: "Pomo 7: Shadowing lại các đoạn hội thoại khó trong đề",
       pomoSession: "Pomo 7",
       durationMinutes: 25,
@@ -220,7 +236,15 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "21:00",
+      time: "21:25",
+      content: "Nghỉ: Uống nước, vận động nhẹ 5 phút 🍵",
+      pomoSession: "Nghỉ ngắn",
+      durationMinutes: 5,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "21:30",
       content: "Pomo 8: Rút trích toàn bộ từ vựng/ngữ pháp mới từ đề Thứ 7 vào Flashcard",
       pomoSession: "Pomo 8",
       durationMinutes: 25,
@@ -228,7 +252,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "21:25",
+      time: "21:55",
       content: "Nghỉ dài 15 phút: Đọc sách hoặc nghe nhạc nhẹ 🎵",
       pomoSession: "Nghỉ dài 15p",
       durationMinutes: 15,
@@ -236,7 +260,7 @@ const getSeedTemplates = () => {
       isBreak: true
     },
     {
-      time: "21:40",
+      time: "22:10",
       content: "Pomo 9 & 10: Luyện chuyên sâu dạng bài bị mất nhiều điểm nhất trong đề chiều",
       pomoSession: "Pomo 9 & 10",
       durationMinutes: 55,
@@ -244,7 +268,15 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "22:40",
+      time: "23:05",
+      content: "Nghỉ: Thả lỏng mắt 5 phút 🌙",
+      pomoSession: "Nghỉ ngắn",
+      durationMinutes: 5,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "23:10",
       content: "Pomo 11: Ôn lại Flashcard trong ngày",
       pomoSession: "Pomo 11",
       durationMinutes: 25,
@@ -344,14 +376,14 @@ const getSeedTemplates = () => {
     },
     {
       time: "17:35",
-      content: "Nghỉ ngơi, ăn tối, vận động nhẹ nhàng 🏃",
+      content: "Nghỉ ngơi, ăn tối, vận động nhẹ nhàng & thư giãn (175 phút) 🏃",
       pomoSession: "Nghỉ tối",
-      durationMinutes: 145,
+      durationMinutes: 175,
       category: "break",
       isBreak: true
     },
     {
-      time: "20:00",
+      time: "20:30",
       content: "Pomo 9 & 10: Tổng ôn các nhóm Ngữ pháp N2 dễ nhầm lẫn (tương đồng ý nghĩa)",
       pomoSession: "Pomo 9 & 10",
       durationMinutes: 55,
@@ -359,7 +391,15 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "21:00",
+      time: "21:25",
+      content: "Nghỉ: Uống nước, vận động 5 phút 🍵",
+      pomoSession: "Nghỉ ngắn",
+      durationMinutes: 5,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "21:30",
       content: "Pomo 11 & 12: Tổng ôn Từ vựng theo chủ đề / Khiêm nhường ngữ - Tôn kính ngữ hay gặp trong Nghe",
       pomoSession: "Pomo 11 & 12",
       durationMinutes: 55,
@@ -367,7 +407,15 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "22:00",
+      time: "22:25",
+      content: "Nghỉ: Thư giãn mắt 5 phút 🌙",
+      pomoSession: "Nghỉ ngắn",
+      durationMinutes: 5,
+      category: "break",
+      isBreak: true
+    },
+    {
+      time: "22:30",
       content: "Pomo 13: Đọc lướt lại toàn bộ sổ tay lỗi sai của cả tuần",
       pomoSession: "Pomo 13",
       durationMinutes: 25,
@@ -375,7 +423,7 @@ const getSeedTemplates = () => {
       isBreak: false
     },
     {
-      time: "22:30",
+      time: "22:55",
       content: "Pomo 14: Chuẩn bị tài liệu, đề cương cho Thứ 2 tuần mới và đi ngủ đúng giờ 💤",
       pomoSession: "Pomo 14",
       durationMinutes: 25,
@@ -396,4 +444,3 @@ const getSeedTemplates = () => {
 };
 
 module.exports = { getSeedTemplates };
-
